@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bagmin"
+    android:orientation="vertical"
+    tools:context="com.example.sai.myfriends.MainActivity">
+    <Button
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:onClick="imageactivity"
+        android:text="Gallery"
+        android:background="@drawable/bag1min"
+        android:textColor="#fff"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:onClick="sanjit_activity"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sanmin" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="SANJIT"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:onClick="asif_activity"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/asifmin" />
+
+                <TextView
+                    android:id="@+id/asif"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="ASIF"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:onClick="panda_activity"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pandamin" />
+
+                <TextView
+                    android:id="@+id/biswojeet"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="BISWOJEET PANDA"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:onClick="akshay_activity"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/akshyamin" />
+
+                <TextView
+                    android:id="@+id/akshay"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="AKSHAY"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:onClick="yesh_activity"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/yeshmin" />
+
+                <TextView
+                    android:id="@+id/yeshwanth"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="YESHWANTH"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:onClick="sai_activity"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/saimin" />
+
+                <TextView
+                    android:id="@+id/saibhavani"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="SAI BHAVANI KUMAR"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="mam_activity"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher_round" />
+
+                <TextView
+                    android:id="@+id/azeem"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:text="Azeem Unnissa"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
+

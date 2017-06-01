@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sai.myfriends">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".sanjit_activity" />
+        <activity android:name=".asif_activity" />
+        <activity android:name=".panda_activity" />
+        <activity android:name=".akshay_activity" />
+        <activity android:name=".yesh_activity" />
+        <activity android:name=".sai_activity" />
+        <activity android:name=".mam_activity" />
+        <activity android:name=".splash_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".image_activity"
+            android:label="@string/title_activity_image_activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

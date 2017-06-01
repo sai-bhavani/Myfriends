@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sai.myfriends.mam_activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@mipmap/ic_launcher_round">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bag1min"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="Name :Azeem Unnisa"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="Moble : 9999999999"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="Email :azeemunnisa@gmail.com "
+                    android:textSize="23dp"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:fontFamily="serif"
+                    android:layout_height="wrap_content"
+                    android:text="Roll :Epics Coordinator"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:text="back"
+                android:textColor="#fff"
+                android:fontFamily="serif"
+                android:onClick="Mainactivity"
+                android:textSize="25dp"
+                android:background="@drawable/bag1min"/>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
